@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      working-directory: ./site
+      working-directory: ../../site
       run: |
         npm install
         npm run docs:dev
